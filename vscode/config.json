@@ -1,0 +1,18 @@
+{
+  "window.zoomLevel": 2,
+  "editor.formatOnType": true,
+  "explorer.confirmDragAndDrop": false,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "atomKeymap.promptV3Features": true,
+  "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "window.nativeFullScreen": false,
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.editor.showTabs": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "files.autoSave": "off",
+  "editor.formatOnSave": true,
+  "liveshare.featureSet": "insiders",
+  "typescript.updateImportsOnFileMove.enabled": "never"
+}
