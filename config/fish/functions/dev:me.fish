@@ -1,3 +1,3 @@
 function dev:me
-	cd ~/dev/pauloportella ; clear ; nvm use default
+	cd ~/dev/pauloportella ; clear
 end

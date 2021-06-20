@@ -4,6 +4,9 @@
 
 - clean: ['~']
 
+- shell:
+  - [touch testing.js, Creating test file]
+
 - link:
     ~/.config/karabiner: karabiner
     ~/.hammerspoon: hammerspoon
@@ -13,8 +16,8 @@
     ~/.config/tabtab: config/tabtab
 
 
-- create:
+# - create:
     # - ~/downloads
 
-- shell:
-  - [bash ./.macos, Running mac os script]
+
+
