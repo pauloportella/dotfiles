@@ -29,6 +29,9 @@ cask "altair-graphql-client"
 cask "aws-vault"
 cask "monitorcontrol"
 cask "vitals"
+cask "vlc"
+cask "spotify"
+
 
 mas "AdBlock Pro", id: 1018301773
 mas "Apple Configurator 2", id: 1037126344
