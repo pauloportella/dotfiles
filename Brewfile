@@ -24,6 +24,7 @@ brew "yarn"
 brew "gabrie30/utils/ghorg"
 brew "heroku/brew/heroku"
 brew "rigellute/tap/spotify-tui"
+brew "wget"
 
 cask "altair-graphql-client"
 cask "aws-vault"
