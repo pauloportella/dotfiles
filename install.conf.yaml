@@ -1,11 +1,18 @@
 - defaults:
     link:
       relink: true
+    shell:
+      quiet: true
+      stdin: true
+      stdout: true
+      stderr: true
 
 - clean: ['~']
 
 - shell:
-  - [touch testing.js, Creating test file]
+  - [bash scripts/xcode.sh, Running XCode script]
+  - [bash scripts/brew.sh, Running Brew script]
+  # - [bash scripts/macos, Running Mac OS script]
 
 - link:
     ~/.config/karabiner: karabiner
