@@ -7,8 +7,12 @@
 - link:
     ~/.config/karabiner: karabiner
     ~/.hammerspoon: hammerspoon
-    # ~/.vim: vim
-    # ~/.vimrc: vimrc
+    ~/.config/fish: config/fish
+    ~/.config/fisher: config/fisher
+    ~/.config/iterm2: config/iterm2
+    ~/.config/omf: config/omf
+    ~/.config/tabtab: config/tabtab
+
 
 - create:
     # - ~/downloads
