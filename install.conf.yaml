@@ -12,7 +12,7 @@
 - shell:
   - [bash scripts/xcode.sh, Running XCode script]
   - [bash scripts/brew.sh, Running Brew script]
-  # - [bash scripts/macos, Running Mac OS script]
+  - [bash scripts/macos, Running Mac OS script]
 
 - link:
     ~/.config/karabiner: karabiner

@@ -29,3 +29,8 @@ e_header "Run Brewfile!"
 brew tap Homebrew/bundle
 brew bundle
 e_success "brew and cask done!"
+
+
+e_header "Setting up nodejs"
+nvm  install --lts
+e_success "node setup done!"
