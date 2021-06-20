@@ -17,4 +17,4 @@
     # - ~/downloads
 
 - shell:
-  - [git submodule update --init --recursive, Installing submodules]
+  - [bash ./.macos, Running mac os script]
