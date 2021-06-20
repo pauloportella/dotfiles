@@ -15,8 +15,14 @@ e_success "brew updated done!"
 
 brew install mas
 
-mas upgrade
-e_success "apple store apps upgrade done!"
+
+if test ! ${mas account}; then
+  e_warning "Please sign into the Mac App Store app manually to continue."
+else
+  mas upgrade
+  e_success "apple store apps upgrade done!"
+fi
+
 
 # run Brewfile
 e_header "Run Brewfile!"

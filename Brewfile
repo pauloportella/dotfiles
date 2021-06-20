@@ -5,6 +5,7 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
 tap "rigellute/tap"
+
 brew "autoconf"
 brew "awscli"
 brew "gnutls"
@@ -23,11 +24,12 @@ brew "yarn"
 brew "gabrie30/utils/ghorg"
 brew "heroku/brew/heroku"
 brew "rigellute/tap/spotify-tui"
+
 cask "altair-graphql-client"
 cask "aws-vault"
 cask "monitorcontrol"
 cask "vitals"
-cask "visual-studio-code-insiders"
+
 mas "AdBlock Pro", id: 1018301773
 mas "Apple Configurator 2", id: 1037126344
 mas "Be Focused", id: 973134470
@@ -61,4 +63,3 @@ cask 'quicklook-csv'
 cask 'quicklook-json'
 cask 'webpquicklook'
 cask 'qlprettypatch'
-cask 'betterzipql'
