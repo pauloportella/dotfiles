@@ -4,8 +4,6 @@
 
 ## Installation
 
-Install my-project with npm
-
 ```bash
   git clone git@github.com:pauloportella/dotfiles.git
   cd dotfiles
