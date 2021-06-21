@@ -1,6 +1,7 @@
 - defaults:
     link:
       relink: true
+      force: true
     shell:
       quiet: true
       stdin: true
@@ -8,6 +9,9 @@
       stderr: true
 
 - clean: ['~']
+
+- create:
+    - ~/dev
 
 - shell:
   - [bash scripts/xcode.sh, Running XCode script]
@@ -21,10 +25,5 @@
     ~/.config/fisher: config/fisher
     ~/.config/omf: config/omf
     ~/.config/tabtab: config/tabtab
-
-
-# - create:
-    # - ~/downloads
-
 
 
