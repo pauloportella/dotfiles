@@ -4,7 +4,7 @@ source scripts/utils.sh
 # BREW
 if test ! $(which brew); then
   e_header "Installing Homebrew"
-  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 else
   e_header "Updating Homebrew"
   brew update
