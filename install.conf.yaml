@@ -8,22 +8,20 @@
       stdout: true
       stderr: true
 
-- clean: ['~']
+- clean: ["~"]
 
-- create:
-    - ~/dev
+# - create:
+#     - ~/dev
 
 - shell:
-  - [bash scripts/xcode.sh, Running XCode script]
-  - [bash scripts/brew.sh, Running Brew script]
-  - [bash scripts/macos, Running Mac OS script]
+    - [bash scripts/brew.sh, Running Brew script]
+    # - [bash scripts/xcode.sh, Running XCode script]
 
+  # - [bash scripts/macos, Running Mac OS script]
 - link:
-    ~/.config/karabiner: karabiner
-    ~/.hammerspoon: hammerspoon
+    # ~/.config/karabiner: karabiner
+    # ~/.hammerspoon: hammerspoon
     ~/.config/fish: config/fish
     ~/.config/fisher: config/fisher
     ~/.config/omf: config/omf
     ~/.config/tabtab: config/tabtab
-
-
