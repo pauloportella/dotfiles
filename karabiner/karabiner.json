@@ -892,6 +892,16 @@
                     "simple_modifications": [
                         {
                             "from": {
+                                "key_code": "grave_accent_and_tilde"
+                            },
+                            "to": [
+                                {
+                                    "key_code": "delete_or_backspace"
+                                }
+                            ]
+                        },
+                        {
+                            "from": {
                                 "key_code": "left_command"
                             },
                             "to": [
@@ -922,11 +932,11 @@
                         },
                         {
                             "from": {
-                                "key_code": "grave_accent_and_tilde"
+                                "key_code": "page_up"
                             },
                             "to": [
                                 {
-                                    "key_code": "delete_or_backspace"
+                                    "key_code": "return_or_enter"
                                 }
                             ]
                         }
