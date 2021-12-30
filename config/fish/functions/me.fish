@@ -1,4 +1,4 @@
-# Defined in - @ line 1
-function me --description 'alias me=dev:me'
-	dev:me  $argv;
+# Defined via `source`
+function me --description 'alias me=dev:me ; nvm use me'
+  dev:me ; nvm use me $argv; 
 end
