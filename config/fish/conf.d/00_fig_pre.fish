@@ -1,0 +1,1 @@
+/Users/paulo.portella/.fig/shell/pre.fish

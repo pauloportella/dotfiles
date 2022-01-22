@@ -22,5 +22,3 @@ set -g fish_add_path "/usr/local/opt/libpq/bin" $fish_user_paths
 [ -f /Users/paulo.portella/dev/pauloportella/bundlewatch-service/node_modules/tabtab/.completions/slss.fish ]; and . /Users/paulo.portella/dev/pauloportella/bundlewatch-service/node_modules/tabtab/.completions/slss.fish
 export PATH="$PATH:/Users/paulo.portella/.kenv/bin"
 export PATH="$PATH:/Users/paulo.portella/.kit/bin"
-
-
