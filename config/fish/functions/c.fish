@@ -1,4 +1,4 @@
-# Defined in - @ line 1
-function c --description 'alias c=code-insiders . --disable-gpu'
-	code-insiders . --disable-gpu $argv;
+# Defined via `source`
+function c --wraps='code . --disable-gpu' --description 'alias c=code . --disable-gpu'
+  code . --disable-gpu $argv; 
 end
